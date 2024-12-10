@@ -68,8 +68,9 @@ public class Uploud extends JFrame {
                             System.out.println("Falha ao criar o diretório de destino.");
                         }
                     }
-
-                    String directoryPath = "C:\\Users\\Guerra\\Documents\\arquivos_lidos"; // Diretório de destino
+                    
+                    //Diretorio que vai processar os dados que forem escolhidos ser ao C:\\txt e oq recebe e o C:\\Users\\Guerra\\Documents\\arquivos_lidos
+                    String directoryPath = "C:\\txt"; // Diretório de destino
                     try {
                         fileReaderController.readFilesAndInsertData(directoryPath);
                     } catch (Exception ex) {

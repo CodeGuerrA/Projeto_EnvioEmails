@@ -20,7 +20,7 @@ public class menu extends JFrame {
     // Variável para manter a instância da janela Cadastro de Clientes
     private static cadastroClientes cadastroFrame;
     private static Uploud uploudframe;
-    private static enviarEmails enviarEmailsFrame;
+    private static EnviarEmails enviarEmailsFrame;
 
     /**
      * Launch the application.
@@ -77,7 +77,7 @@ public class menu extends JFrame {
         enviarEmails.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
         		if(enviarEmailsFrame == null || !enviarEmailsFrame.isVisible()) {
-        			enviarEmailsFrame = new enviarEmails();
+        			enviarEmailsFrame = new EnviarEmails();
         			enviarEmailsFrame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); // Apenas esconde a janela
         			enviarEmailsFrame.setLocationRelativeTo(null); // Centraliza a janela na tela
         			enviarEmailsFrame.setVisible(true); // Torna a janela visível
