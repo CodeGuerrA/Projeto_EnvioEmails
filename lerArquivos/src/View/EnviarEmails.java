@@ -60,7 +60,7 @@ public class EnviarEmails extends JFrame {
         btnNewButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String meuEmailString = "carlosgarcianeto229@gmail.com";
-                String minhaSenhaString = "cpfeqocmraokwjkx";
+                String minhaSenhaString = "************";
 
                 HtmlEmail email = new HtmlEmail();
                 email.setHostName("smtp.gmail.com");
